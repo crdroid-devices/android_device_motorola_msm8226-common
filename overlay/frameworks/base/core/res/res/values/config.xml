@@ -263,6 +263,10 @@
     <!-- If true, the doze component is not started until after the screen has been
          turned off and the screen off animation has been performed. -->
     <bool name="config_dozeAfterScreenOff">true</bool>
+    <bool name="config_powerDecoupleInteractiveModeFromDisplay">true</bool>
+
+    <!-- Doze: force using accelerometer as pick up sensor -->
+    <bool name="config_dozeUseAccelerometer">true</bool>
 
     <!-- Device configuration setting the minfree tunable in the lowmemorykiller in the
          kernel. A high value will cause the lowmemorykiller to fire earlier, keeping more
